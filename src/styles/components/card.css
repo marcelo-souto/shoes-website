@@ -1,0 +1,33 @@
+.card-product {
+	display: flex;
+	flex-direction: column;
+  position: relative;
+  text-decoration: none;
+}
+
+.card-product > h3 {
+	font: var(--font-1-m-sb);
+	margin-top: 1rem;
+	color: var(--grey-13);
+}
+
+.card-product > p {
+	font: var(--font-1-s-m);
+	margin-top: 0.2rem;
+	color: var(--grey-06);
+}
+
+.card-product[data-discount]::before {
+	content: attr(data-discount);
+	border-radius: 0.375rem;
+	display: flex;
+	padding: 0.25rem 0.5rem;
+	background-color: var(--grey-13);
+	color: var(--grey-01);
+	font: var(--font-2-s-m);
+  font-size: .875rem;
+  width: fit-content;
+  position: absolute;
+  left: .875rem;
+  top: .875rem;
+}
