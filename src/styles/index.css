@@ -10,4 +10,6 @@
 /* Classes utilitarias */
 @import url(./utilitaries/typography.css);
 
+/* Componentes */
 @import url(./components/button.css);
+@import url(./components/input.css);

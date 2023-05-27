@@ -35,7 +35,8 @@
 					id="search"
 					type="text"
 					placeholder="pesquise aqui..."
-					class="rounded"
+					class="input primary w-50"
+					aria-label="formulario de pesquisa de produtos"
 				/>
 
 				<button
@@ -43,30 +44,33 @@
 					title="Carrinho"
 					class="button bg-grey-10 grey-01"
 				>
-					<img src="./public/img/cart-icon.svg" />
+					<img
+						src="./public/img/cart-icon.svg"
+						alt="icone carrinho de compras"
+					/>
 					carrinho
 				</button>
 			</div>
-			<nav class="bg-grey-12">
+			<nav class="bg-grey-12 pt-1 pb-1">
 				<div class="container">
-					<ul class="list-unstyled d-flex gap-5 font-2-s-m">
+					<ul class="list-unstyled d-flex gap-5 m-0 font-2-s-m">
 						<li>
 							<a
-								href=""
+								href="#nossosprodutos"
 								class="grey-02 link-underline link-underline-opacity-0 d-block pt-2 pb-2"
 								>nossos produtos</a
 							>
 						</li>
 						<li>
 							<a
-								href=""
+								href="#quemsomos"
 								class="grey-02 link-underline link-underline-opacity-0 d-block pt-2 pb-2"
 								>quem somos</a
 							>
 						</li>
 						<li>
 							<a
-								href=""
+								href="#nossaquipe"
 								class="grey-02 link-underline link-underline-opacity-0 d-block pt-2 pb-2"
 								>nossa equipe</a
 							>
@@ -76,9 +80,62 @@
 			</nav>
 		</header>
 
-		<main></main>
-		<footer></footer>
+		<div
+			id="products-carousel"
+			class="carousel slide"
+			data-bs-ride="carousel"
+			style="height: 28.75rem"
+		>
+			<div class="carousel-inner h-100">
+				<div class="carousel-item active h-100">
+					<img
+						src="https://media.gq-magazine.co.uk/photos/62e1018f462bbdd05e0f7e2c/16:9/pass/AmazonS_HP.jpg"
+						class="d-block object-fit-cover w-100 h-100"
+						alt="..."
+					/>
+				</div>
+				<div class="carousel-item h-100">
+					<img
+						src="https://www.rei.com/dam/content_team_010818_52427_htc_running_shoes_hero2_lg.jpg?t=ea16by9xs"
+						class="d-block object-fit-cover w-100 h-100"
+						alt="..."
+					/>
+				</div>
+			</div>
 
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#products-carousel"
+				data-bs-slide="prev"
+			>
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#products-carousel"
+				data-bs-slide="next"
+			>
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<main>
+			
+		</main>
+
+		<footer>
+
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"
+		></script>
 		<script type="module" src="/src/main.ts"></script>
 	</body>
 </html>
