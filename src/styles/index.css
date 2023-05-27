@@ -1,0 +1,11 @@
+/* CSS Global */
+@import url(./global.css);
+
+/* Tipografia */
+@import url(./tipografia.css);
+
+/* Classes utilitarias */
+@import url(./utilitarios.css);
+
+/* Cores */
+@import url(./cores.css);
