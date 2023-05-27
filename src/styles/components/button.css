@@ -1,0 +1,22 @@
+.button {
+	padding: 0.75rem 1.5rem;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	display: flex;
+	align-items: center;
+	gap: 0.7rem;
+	border-radius: 0.375rem;
+	font: 500 1rem/1.5 'Roboto', sans-serif;
+}
+
+.button.primary {
+	background-color: var(--grey-12);
+	color: var(--wh);
+}
+
+.button.secondary {
+	background-color: var(--wh);
+	color: var(--grey-12);
+	border: 0.125rem solid var(--grey-12);
+}

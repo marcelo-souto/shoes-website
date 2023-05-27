@@ -1,11 +1,13 @@
 /* CSS Global */
 @import url(./global.css);
 
+/* Cores */
+@import url(./utilitaries/colors.css);
+
 /* Tipografia */
-@import url(./tipography.css);
+@import url(./utilitaries/typography.css);
 
 /* Classes utilitarias */
-@import url(./utilitaries.css);
+@import url(./utilitaries/typography.css);
 
-/* Cores */
-@import url(./colors.css);
+@import url(./components/button.css);
