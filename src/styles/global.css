@@ -3,3 +3,12 @@
   grid-template-columns: repeat(auto-fit, minmax(16.25rem,1fr));
   gap: 2.5rem;
 }
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
+}
