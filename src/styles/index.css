@@ -2,10 +2,10 @@
 @import url(./global.css);
 
 /* Tipografia */
-@import url(./tipografia.css);
+@import url(./tipography.css);
 
 /* Classes utilitarias */
-@import url(./utilitarios.css);
+@import url(./utilitaries.css);
 
 /* Cores */
-@import url(./cores.css);
+@import url(./colors.css);
