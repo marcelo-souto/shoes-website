@@ -8,8 +8,9 @@
 @import url(./utilitaries/typography.css);
 
 /* Classes utilitarias */
-@import url(./utilitaries/typography.css);
+@import url(./utilitaries/utilitaries.css);
 
 /* Componentes */
 @import url(./components/button.css);
 @import url(./components/input.css);
+@import url(./components/card.css);

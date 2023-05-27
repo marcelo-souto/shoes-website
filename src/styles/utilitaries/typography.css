@@ -1,23 +1,37 @@
+:root {
+	--font-1-xl-b: 700 2rem/1.5 'Plus Jakarta Sans', sans-serif;
+
+	--font-1-m-sb: 600 1.25rem/1.25 'Plus Jakarta Sans', sans-serif;
+
+	--font-2-s-r: 400 1rem/1.5 'Roboto', sans-serif;
+
+	--font-2-s-m: 500 1rem/1.5 'Roboto', sans-serif;
+
+	--font-2-s-b: 700 1rem/1.5 'Roboto', sans-serif;
+
+	--font-1-s-m: 500 1rem/1.5 'Plus Jakarta Sans', sans-serif;
+}
+
 .font-1-xl-b {
-	font: 700 2rem/1.5 'Plus Jakarta Sans', sans-serif;
+	font: var(--font-1-xl-b);
 }
 
 .font-1-m-sb {
-	font: 600 1.25rem/0.7 'Plus Jakarta Sans', sans-serif;
+	font: var(--font-1-m-sb);
 }
 
 .font-2-s-r {
-	font: 400 1rem/1.5 'Roboto', sans-serif;
+	font: var(--font-2-s-r);
 }
 
 .font-2-s-m {
-	font: 500 1rem/1.5 'Roboto', sans-serif;
+	font: var(--font-2-s-m);
 }
 
 .font-2-s-b {
-	font: 700 1rem/1.5 'Roboto', sans-serif;
+	font: var(--font-2-s-b);
 }
 
 .font-1-s-m {
-	font: 500 1rem/1.5 'Plus Jakarta Sans', sans-serif;
+	font: var(--font-1-s-m);
 }

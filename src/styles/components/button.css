@@ -7,7 +7,7 @@
 	align-items: center;
 	gap: 0.7rem;
 	border-radius: 0.375rem;
-	font: 500 1rem/1.5 'Roboto', sans-serif;
+	font: var(--font-2-s-m);
 }
 
 .button.primary {

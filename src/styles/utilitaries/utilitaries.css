@@ -1,0 +1,9 @@
+.section {
+  margin-top: 5rem;
+}
+
+.title {
+  margin-bottom: 2.875rem;
+  font: var(--font-1-xl-b);
+  color: var(--grey-13);
+}
