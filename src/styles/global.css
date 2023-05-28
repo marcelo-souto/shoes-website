@@ -1,9 +1,10 @@
 body {
+	overflow-x: hidden;
 	height: 400vh;
 }
 
 strong {
-	font: var(--font-2-s-b);
+	font: var(--font-2-s-m);
 }
 
 .main-products {

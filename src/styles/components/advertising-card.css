@@ -2,56 +2,65 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	background-color: var(--grey-11);
-	box-shadow: inset 0rem 6.375rem var(--wh), 
-              inset 0rem -7.5rem var(--wh);
+
+	padding: 4rem 0 12rem 4rem;
 
 	border-radius: 1.5rem;
-  position: relative;
+	position: relative;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+
+  background-image: url(/img/decorator.svg), url(/img/decorator.svg);
+  background-repeat: no-repeat;
+  background-position: top -1.5rem right 4rem, left 4rem bottom 3.375rem;
+  margin-top: 6rem;
 }
 
 .advertising-card::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 6rem;
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -0.125rem;
 
-  width: 100%;
-  height: 5.125rem;
-  z-index: 1;
+	width: 100%;
+	height: 5.125rem;
+	z-index: 1;
 
-  background-color: #c1ff3e;
-  border-radius: 0 0 1.5rem 1.5rem;
+	background-color: #c1ff3e;
+	border-radius: 0 0 1.5rem 1.5rem;
 }
 
 .advertising-card .ad-content {
 	grid-row: 1 / 2;
 	grid-column: 1 / 3;
-  margin-top: 6.375rem;
-  padding: 3rem 0 0 3rem;
 }
 
 .advertising-card .ad-content span {
 	color: #c1ff3e;
-  display: block;
-  margin-bottom: .4rem;
+	display: block;
+	margin-bottom: 0.4rem;
 }
 
 .advertising-card .ad-content h2 {
 	max-width: 35rem;
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .advertising-card .ad-content p {
 	max-width: 37.5rem;
-  line-height: 1.8;
+	line-height: 1.8;
 }
 
 .advertising-card .ad-image {
 	grid-row: 1 / 2;
 	grid-column: 2 / 4;
-	
-  z-index: 2;
-  margin-right: -6rem;
-  justify-self: end;
+
+  top: -11.25rem;
+  right: -1.8rem;
+	position: absolute;
+
+	z-index: 2;
 }
 
+.advertising-card .ad-image img {
+  width: 110%;
+}
