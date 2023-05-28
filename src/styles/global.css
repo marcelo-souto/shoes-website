@@ -1,14 +1,28 @@
+body {
+	height: 400vh;
+}
+
 .main-products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16.25rem,1fr));
-  gap: 2.5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
+	gap: 2.5rem;
 }
 
 .brands {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	list-style: none;
+	padding: 0;
+}
+
+.brands a {
+	display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-  list-style: none;
+  justify-content: center;
+
+	width: 7.5rem;
+	height: 7.5rem;
 }
