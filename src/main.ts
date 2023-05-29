@@ -1,19 +1,17 @@
-import addEvent from "./functions/addEvent";
+import addEvent from './functions/addEvent';
 
-const categories = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-category]"));
+const categories = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-category]'));
 
-function handleCategories<T extends HTMLElement>(elements: Array<T>): EventListener {
-  return ({ currentTarget }: Event): void => {
-    const selected = elements.find((el) => el.classList.contains("primary"));
+const handleCategories = <T extends HTMLElement>(elements: Array<T>): EventListener => ({ currentTarget }: Event): void => {
+	
+		const previousActivedOption = elements.find((el) => el.classList.contains('actived'));
+		const newActivedOption = currentTarget;
 
-    selected?.classList.remove("primary");
-    selected?.classList.add("secondary");
+		previousActivedOption?.classList.remove('actived');
 
-    if (currentTarget instanceof HTMLElement) {
-      currentTarget.classList.remove("secondary");
-      currentTarget.classList.add("primary");
-    }
-  };
-}
+		if (newActivedOption instanceof HTMLElement) {
+			newActivedOption.classList.add('actived');
+		}
+	};
 
-addEvent(categories, "click", handleCategories(categories));
+addEvent(categories, 'click', handleCategories(categories));
