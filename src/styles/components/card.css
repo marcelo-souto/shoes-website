@@ -1,20 +1,16 @@
+@import url(./products-container.css);
+
 .card-product {
 	display: flex;
 	flex-direction: column;
   position: relative;
   text-decoration: none;
+	gap: 1rem;
 }
 
-.card-product > h3 {
-	font: var(--font-1-m-sb);
-	margin-top: 1rem;
-	color: var(--grey-13);
-}
-
-.card-product > p {
-	font: var(--font-1-s-m);
-	margin-top: 0.2rem;
-	color: var(--grey-06);
+.products-container.list > .card-product {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
 }
 
 .card-product[data-discount]::before {
@@ -30,4 +26,20 @@
   position: absolute;
   left: .875rem;
   top: .875rem;
+}
+
+.card-product img {
+	display: block;
+	width: 100%;
+}
+
+.card-product h3 {
+	font: var(--font-1-m-sb);
+	color: var(--grey-13);
+}
+
+.card-product p {
+	font: var(--font-1-s-m);
+	margin-top: 0.3rem;
+	color: var(--grey-06);
 }

@@ -12,6 +12,7 @@ const handleCategories = <T extends HTMLElement>(elements: Array<T>): EventListe
 		if (newActivedOption instanceof HTMLElement) {
 			newActivedOption.classList.add('actived');
 		}
+		
 	};
 
 addEvent(categories, 'click', handleCategories(categories));

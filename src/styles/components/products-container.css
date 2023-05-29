@@ -1,0 +1,11 @@
+.products-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
+	gap: 2.5rem;
+}
+
+.products-container.list {
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 2.5rem;
+  margin-top: 6rem;
+}
