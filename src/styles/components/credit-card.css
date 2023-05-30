@@ -1,6 +1,6 @@
 .credit-card {
   background: url('/img/ball.svg') no-repeat, var(--grey-11);
-  background-position: center right -19.375rem;
+  background-position: center right -19.5rem;
   border-radius: 1.5rem;
   margin-top: 8.75rem;
   filter: drop-shadow(0px 0px 1.25rem rgba(0, 0, 0, 0.1));
@@ -12,11 +12,13 @@
 }
 
 .credit-card .credit-content h2 {
-  max-width: 35rem;
+  max-width: 28rem;
+  font-size: 1.5rem;
+  margin-bottom: 2.625rem;
 }
 
 .credit-card .credit-content ul {
-  margin-bottom: 2.875rem;
+  margin-bottom: 2.625rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -38,10 +40,11 @@
 
 .credit-card .credit-image {
   position: absolute;
-  right: 0;
-  top: -2.8rem;
+  right: 2.375rem;
+  top: -2.375rem;
 }
 
 .credit-card .credit-image img {
+  max-width: 33.25rem;
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
 }
