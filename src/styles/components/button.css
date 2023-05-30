@@ -16,6 +16,12 @@
 	border: 0.125rem solid var(--grey-12);
 }
 
+.button.actived {
+	background-color: var(--grey-12) !important;
+	color: var(--wh) !important;
+	border: 0.125rem solid var(--grey-12) !important;
+}
+
 .button.secondary {
 	background-color: var(--wh);
 	color: var(--grey-12);
