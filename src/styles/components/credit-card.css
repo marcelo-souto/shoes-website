@@ -1,0 +1,47 @@
+.credit-card {
+  background: url('/img/ball.svg') no-repeat, var(--grey-11);
+  background-position: center right -19.375rem;
+  border-radius: 1.5rem;
+  margin-top: 8.75rem;
+  filter: drop-shadow(0px 0px 1.25rem rgba(0, 0, 0, 0.1));
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3.2rem 0 3.2rem 4rem;
+  position: relative;
+}
+
+.credit-card .credit-content h2 {
+  max-width: 35rem;
+}
+
+.credit-card .credit-content ul {
+  margin-bottom: 2.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.credit-card .credit-content ul li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.credit-card .credit-content ul li::before {
+  content: "";
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: url("/img/check-icon.svg") center center no-repeat;
+}
+
+.credit-card .credit-image {
+  position: absolute;
+  right: 0;
+  top: -2.8rem;
+}
+
+.credit-card .credit-image img {
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+}

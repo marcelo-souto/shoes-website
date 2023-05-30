@@ -13,6 +13,8 @@
 	--grey-11: #191919;
 	--grey-12: #0f0f0f;
 	--grey-13: #000000;
+	--p-1:#C1FF3E;
+	--p-2: #1F290A;
 }
 
 .wh {
@@ -71,6 +73,13 @@
 	color: var(--grey-13);
 }
 
+.p-1 {
+	color: var(--p-1);
+}
+
+.p-2 {
+	color: var(--p-2);
+}
 
 
 
@@ -128,4 +137,12 @@
 
 .bg-grey-13 {
 	background: var(--grey-13);
+}
+
+.bg-p-1 {
+	background: var(--p-1);
+}
+
+.bg-p-2 {
+	background: var(--p-2);
 }
