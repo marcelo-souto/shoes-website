@@ -12,7 +12,7 @@
   background-image: url(/img/decorator.svg), url(/img/decorator.svg);
   background-repeat: no-repeat;
   background-position: top -1.5rem right 4rem, left 4rem bottom 3.375rem;
-  margin-top: 6rem;
+  margin-top: 7.5rem;
 }
 
 .advertising-card::after {
