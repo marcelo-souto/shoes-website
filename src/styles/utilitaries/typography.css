@@ -41,3 +41,11 @@
 .font-1-s-m {
 	font: var(--font-1-s-m);
 }
+
+@media (max-width: 75rem) {
+
+	.font-1-xxl-b {
+		font: var(--font-1-xl-b);
+	}
+	
+}
