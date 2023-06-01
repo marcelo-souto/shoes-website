@@ -1,33 +1,56 @@
 .footer-content {
-	padding-top: 4.5rem;
-	padding-bottom: 4.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
   column-gap: 7.5rem;
-	display: flex;
+  display: flex;
 }
 
 .footer-info {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	flex-grow: 2;
-	row-gap: 2.625rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-grow: 2;
+  gap: 2.625rem;
+  white-space: nowrap;
 }
 
 .footer-newsletter {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 .footer-form {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
 }
 
 .footer-form > div {
-	display: flex;
-	flex-direction: column;
-	row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
 .footer-form .button {
-	grid-column: 1 / -1;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 75rem) {
+  .footer-content {
+    column-gap: 4rem;
+  }
+}
+
+@media (max-width: 62rem) {
+  .footer-form {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 48rem) {
+  .footer-content {
+    flex-wrap: wrap;
+    gap: 4.5rem;
+    padding: 3rem 1.5rem;
+  }
+  .footer-logo {
+    padding-left: 1.5rem;
+  }
 }

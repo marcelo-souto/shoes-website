@@ -1,26 +1,32 @@
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 strong {
-	font: var(--font-2-s-m);
+  font: var(--font-2-s-m);
 }
 
 .brands {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 1rem;
-	list-style: none;
-	padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
 }
 
 .brands a {
-	display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
-	width: 7.5rem;
-	height: 7.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.slide img {
+  display: block;
+  height: 100%;
+  max-height: 560px;
 }

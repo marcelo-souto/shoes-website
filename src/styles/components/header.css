@@ -1,0 +1,9 @@
+.header {
+
+}
+
+@media (max-width: 48rem) {
+  .header button span {
+    display: none;
+  }
+}

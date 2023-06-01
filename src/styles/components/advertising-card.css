@@ -90,6 +90,9 @@
 }
 
 @media (max-width: 61.875rem) {
+  .advertising-card {
+    margin-top: 5rem;
+  }
   .advertising-card .ad-content {
     grid-column: 1 / 2;
   }
@@ -103,7 +106,6 @@
 @media (max-width: 48rem) {
   .advertising-card {
     grid-template-columns: 1fr;
-
     background-size: 5.375rem;
     background-position: top -8rem right 4rem, right 3rem bottom 2rem;
   }
@@ -123,11 +125,13 @@
   }
 }
 
-@media (max-width: 35.875rem) {
+@media (max-width: 36rem) {
   .advertising-card {
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    overflow: hidden;
+    margin-top: 3.5rem;
   }
 
   .advertising-card,

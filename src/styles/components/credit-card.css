@@ -79,6 +79,7 @@
 
 @media (max-width: 61.875rem) {
   .credit-card {
+    margin-top: 5rem;
     grid-template-columns: 1fr;
     background-position: center right -860px;
   }
@@ -98,7 +99,7 @@
     grid-row: 2 / 3;
     position: initial;
     justify-self: center;
-    margin-top: -2.625rem;
+   
     margin-bottom: 2.625rem;
   }
 
@@ -112,11 +113,12 @@
   }
 }
 
-@media (max-width: 35.875rem) {
+@media (max-width: 36rem) {
   .credit-card {
     border-radius: 0;
     padding: 1.5rem;
 		padding-bottom: 2.4rem;
+    margin-top: 3.5rem;
   }
 
   .credit-card .credit-image img {
@@ -129,6 +131,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 29.375rem) {
+  .credit-card {
+    background-position: center top -36rem;
+  }
+}
+
 
 /* @media (max-width: 75rem) {
 }
