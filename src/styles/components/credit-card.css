@@ -1,50 +1,141 @@
 .credit-card {
-  background: url('/img/ball.svg') no-repeat, var(--grey-11);
-  background-position: center right -19.5rem;
-  border-radius: 1.5rem;
-  margin-top: 8.75rem;
-  filter: drop-shadow(0px 0px 1.25rem rgba(0, 0, 0, 0.1));
+	background: url('/img/ball.svg') no-repeat, var(--grey-11);
+	background-position: center right -19.5rem;
+	border-radius: 1.5rem;
+	margin-top: 8.75rem;
+	filter: drop-shadow(0px 0px 1.25rem rgba(0, 0, 0, 0.1));
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 3.2rem 0 3.2rem 4rem;
-  position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 3.2rem 0 3.2rem 4rem;
+	position: relative;
 }
 
-/* .credit-card .credit-content h2 {
-  max-width: 28rem;
-  font-size: 1.5rem;
-  margin-bottom: 2.625rem;
-} */
+.credit-card .credit-content {
+	grid-column: 1 / 2;
+}
 
 .credit-card .credit-content ul {
-  margin-bottom: 2.625rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+	margin-bottom: 2.625rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .credit-card .credit-content ul li {
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
 }
 
 .credit-card .credit-content ul li::before {
-  content: "";
-  display: block;
-  width: 1.25rem;
-  height: 1.25rem;
-  background: url("/img/check-icon.svg") center center no-repeat;
+	content: '';
+	display: block;
+	width: 1.25rem;
+	height: 1.25rem;
+	background: url('/img/check-icon.svg') center center no-repeat;
 }
 
 .credit-card .credit-image {
-  position: absolute;
-  right: 2.375rem;
-  top: -2.375rem;
+	position: absolute;
+	right: 2.375rem;
+	top: -2.375rem;
 }
 
 .credit-card .credit-image img {
-  max-width: 33.25rem;
-  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+	max-width: 33.25rem;
+	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
 }
+
+@media (max-width: 87.5rem) {
+	.credit-card {
+		background-position: center right -24rem;
+	}
+
+	.credit-card .credit-image {
+		right: 0;
+	}
+}
+
+@media (max-width: 75rem) {
+	.credit-card {
+		background-position: center right -32rem;
+		padding: 3rem 0 3rem 3rem;
+	}
+
+	.credit-card .credit-image {
+		align-self: center;
+		top: 1.5rem;
+	}
+
+	.credit-card .credit-image img {
+		max-width: 26.25rem;
+	}
+
+	.credit-card .credit-content ul {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 61.875rem) {
+	.credit-card {
+		grid-template-columns: 1fr;
+		background-position: center right -860px;
+	}
+
+	.credit-card .credit-image {
+		display: none;
+	}
+}
+
+@media (max-width: 48rem) {
+	.credit-card {
+		background-position: center top -32rem;
+    padding: 1.5rem;
+	}
+
+	.credit-card .credit-image {
+		display: block;
+		grid-row: 2 / 3;
+		position: initial;
+		justify-self: center;
+		margin-top: -2.625rem;
+		margin-bottom: 2.625rem;
+	}
+
+	.credit-card h2 {
+		color: var(--p-2);
+	}
+
+	.credit-card .credit-content {
+		grid-row: initial;
+	}
+}
+
+@media (max-width: 35.875rem) {
+	.credit-card {
+		border-radius: 0;
+	}
+
+	.credit-card .credit-image img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 32.5rem) {
+	.credit-card .credit-content ul {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* @media (max-width: 75rem) {
+}
+
+@media (max-width: 61.875rem) {
+}
+
+@media (max-width: 48rem) {
+}
+
+@media (max-width: 35.875rem) {
+} */
