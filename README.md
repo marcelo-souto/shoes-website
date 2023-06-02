@@ -2,7 +2,7 @@
 
   <br />
 
-  <img src="https://i.imgur.com/QZDCsdg.png" alt="Logo" height="125" width="125">
+  <img src="https://i.imgur.com/peXPBQx.png" alt="Logo" height="125" width="125">
 
   <br />
   Shoes Website
@@ -10,4 +10,4 @@
 
 </h1>
 
-<p align="center">Projeto de desenvolvimento um website de uma loja de calçados e artigos esportivos.</p>
+<p align="center">Projeto de desenvolvimento de um website de uma loja de calçados e artigos esportivos.</p>
