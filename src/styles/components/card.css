@@ -22,7 +22,8 @@
 	color: var(--grey-01);
 	font: var(--font-2-s-m);
   font-size: .875rem;
-  width: fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
   position: absolute;
   left: .875rem;
   top: .875rem;
