@@ -10,6 +10,7 @@
 	font: var(--font-2-s-m);
 	line-height: initial;
 	width: max-content;
+	transition: all .3s;
 }
 
 .button.actived {

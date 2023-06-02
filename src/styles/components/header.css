@@ -1,9 +1,69 @@
 .header {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	justify-items: center;
+	align-items: center;
 
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.navigation-bar {
+	display: flex;
+}
+
+.header .hamburger-button {
+	display: none;
+}
+
+.header .hamburger-button,
+.header .cart-button {
+	background: var(--grey-10);
+  color: var(--grey-01);
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
 }
 
 @media (max-width: 48rem) {
-  .header button span {
-    display: none;
-  }
+	.header .hamburger-button {
+		display: block;
+		grid-row: 1 / 2;
+	}
+
+	.navigation-bar {
+		display: none;
+	}
+
+	.header {
+		justify-content: space-between;
+		grid-template-columns: auto auto;
+		gap: 1rem;
+	}
+
+	.header a {
+		justify-self: start;
+		grid-row: 1 / 2;
+	}
+
+	.header a img {
+		width: 4.125rem;
+	}
+
+	.header .cart-button {
+		justify-self: end;
+		order: 3;
+		grid-row: 1 / 2;
+	}
+
+	.header input {
+		order: 4;
+		grid-row: 2 / 3;
+		grid-column: span 3;
+		width: 100% !important;
+	}
+
+	.header .cart-button span {
+		display: none;
+	}
 }

@@ -30,3 +30,12 @@ strong {
   height: 100%;
   max-height: 560px;
 }
+
+.link-text {
+  transition: all .3s;
+}
+
+.link-text:hover {
+  color: var(--p-1);
+  text-decoration: underline !important;
+}
