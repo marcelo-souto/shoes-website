@@ -20,10 +20,12 @@ export default class Card {
     const h3 = document.createElement("h3");
     const p = document.createElement("p");
 
-    if (this.discount) anchor.setAttribute("data-discount", `-${this.discount}%`);
+    anchor.href = '#';
     anchor.classList.add("card-product");
+    if (this.discount) anchor.setAttribute('data-discount', `-${this.discount}%`);
 
-    img.src = this.images[0];
+    img.src = this.images[0] || 'https://i.imgur.com/TprUkF3.jpg';
+    img.alt = this.name
     h3.innerText = this.name;
     p.innerText = this.price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 
