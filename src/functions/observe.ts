@@ -7,6 +7,7 @@ const observe = <T extends Element>(
 
   if (elements instanceof Array || elements instanceof NodeList) {
     elements.forEach((el) => observer.observe(el));
+    
   } else if (elements instanceof Element) {
     observer.observe(elements);
   }

@@ -3,18 +3,16 @@
 .card-product {
 	display: flex;
 	opacity: 0;
-	transform: translateX(40px);
-	transition: all .3s;
+	transition: all .3s ease-in-out;
 
 	flex-direction: column;
-  position: relative;
-  text-decoration: none;
+	position: relative;
+	text-decoration: none;
 	gap: 1rem;
 }
 
-.card-product {
+.card-product.show {
 	opacity: 1;
-	transform: initial;
 }
 
 .products-container.list > .card-product {
@@ -30,17 +28,17 @@
 	background-color: var(--grey-13);
 	color: var(--grey-01);
 	font: var(--font-2-s-m);
-  font-size: .875rem;
+	font-size: 0.875rem;
 	width: -moz-fit-content;
 	width: fit-content;
-  position: absolute;
-  left: .875rem;
-  top: .875rem;
+	position: absolute;
+	left: 0.875rem;
+	top: 0.875rem;
 }
 
 .card-product img {
 	display: block;
-	border-radius: .75rem;
+	border-radius: 0.75rem;
 	width: 100%;
 	aspect-ratio: 4 / 4;
 	object-fit: cover;

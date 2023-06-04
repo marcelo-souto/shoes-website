@@ -13,6 +13,10 @@
 	transition: all .3s;
 }
 
+.button:disabled {
+	opacity: 0;
+}
+
 .button.actived {
 	background-color: var(--grey-12) !important;
 	color: var(--wh) !important;
