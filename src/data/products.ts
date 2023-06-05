@@ -12,6 +12,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 32,
     discount: 20,
+    totalSales: 3054,
   },
   {
     id: "f8ebb2ed-17ae-5719-b750-5ea3ec69b75c",
@@ -26,6 +27,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 90,
     discount: 0,
+    totalSales: 1845,
   },
   {
     id: "88120081-e6cb-5399-b9dc-a2d3d5dd5206",
@@ -40,6 +42,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 140,
     discount: 0,
+    totalSales: 4338,
   },
   {
     id: "98348cc5-1520-5b6e-a5f6-c42547b6a092",
@@ -54,6 +57,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 18.375999999999998,
     discount: 20,
+    totalSales: 7013,
   },
   {
     id: "f15981a5-d8c9-53fa-880d-80606be188fe",
@@ -68,6 +72,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 70,
     discount: 0,
+    totalSales: 7151,
   },
   {
     id: "32f47015-e055-5757-beb4-6b57604e3141",
@@ -82,6 +87,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 104,
     discount: 20,
+    totalSales: 471,
   },
   {
     id: "4b8de2f1-af57-5e5d-a208-371a2dfaa3ff",
@@ -96,6 +102,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 104.99,
     discount: 0,
+    totalSales: 6992,
   },
   {
     id: "de86e49a-23df-5149-b801-407fbc6b8ef9",
@@ -110,6 +117,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 18.97,
     discount: 0,
+    totalSales: 9483,
   },
   {
     id: "b24f9f9b-c408-5d83-b7a6-4980af41e9d7",
@@ -124,6 +132,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 26.073,
     discount: 10,
+    totalSales: 6012,
   },
   {
     id: "41b961cc-50f1-5ed7-85a2-836a7cffceae",
@@ -138,6 +147,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 85,
     discount: 0,
+    totalSales: 5197,
   },
   {
     id: "d8261af3-369c-50b0-a47a-c9675ccfe0bc",
@@ -152,6 +162,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 45.97,
     discount: 0,
+    totalSales: 4026,
   },
   {
     id: "6d5cb678-038b-5387-9961-ce89a0bdb6fc",
@@ -166,6 +177,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 45,
     discount: 0,
+    totalSales: 9213,
   },
   {
     id: "4a3f7333-1945-5f1e-b0e3-829f40f28bb3",
@@ -180,6 +192,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 95,
     discount: 0,
+    totalSales: 9875,
   },
   {
     id: "3463cd58-d25e-5405-b4ae-d8f809e6213b",
@@ -194,6 +207,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 85.5,
     discount: 10,
+    totalSales: 5320,
   },
   {
     id: "93c5f52f-8410-572f-bfd9-6b5ee951988c",
@@ -208,6 +222,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 45,
     discount: 0,
+    totalSales: 396,
   },
   {
     id: "2a358cbf-8d2b-5303-8872-d3e66fb83944",
@@ -222,6 +237,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 30,
     discount: 0,
+    totalSales: 9207,
   },
   {
     id: "e126c911-7d22-50b8-a543-9eb347ef5c22",
@@ -236,6 +252,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 40.97,
     discount: 0,
+    totalSales: 3372,
   },
   {
     id: "c3fc0349-a9e4-5610-a676-9f7b5e8b4dfd",
@@ -250,6 +267,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 52,
     discount: 0,
+    totalSales: 4949,
   },
   {
     id: "97a84e9c-b7c9-550e-b62e-9f1e1559849d",
@@ -264,6 +282,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 19.773,
     discount: 10,
+    totalSales: 824,
   },
   {
     id: "da39eaf6-f469-5370-b8bf-b9ad2946e4ed",
@@ -278,6 +297,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 49.5,
     discount: 10,
+    totalSales: 2082,
   },
   {
     id: "f672d8c4-e742-52c8-83a6-0c2ceb771648",
@@ -292,6 +312,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 21.97,
     discount: 0,
+    totalSales: 2492,
   },
   {
     id: "78a41029-6007-56d5-aacf-c6c2ae8e83cf",
@@ -306,6 +327,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 28,
     discount: 30,
+    totalSales: 2372,
   },
   {
     id: "88d66ec2-b58a-568d-8dfa-1a1df3313a29",
@@ -320,6 +342,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 160,
     discount: 0,
+    totalSales: 9918,
   },
   {
     id: "6b61ab80-838f-595c-9079-87ba7f2acb4b",
@@ -334,6 +357,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 150,
     discount: 0,
+    totalSales: 3208,
   },
   {
     id: "d2c24bb4-3853-5caf-8620-734f771dd9ac",
@@ -348,6 +372,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 89.97,
     discount: 0,
+    totalSales: 3215,
   },
   {
     id: "f717aaf3-6fe3-5e35-b855-8fe49375a9aa",
@@ -362,6 +387,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 18.97,
     discount: 0,
+    totalSales: 8932,
   },
   {
     id: "c853fd7a-bb00-5143-9386-37583e24898e",
@@ -376,6 +402,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 12.600000000000001,
     discount: 30,
+    totalSales: 6720,
   },
   {
     id: "7c68f3bf-2bf2-55b0-99b1-d574ba6ea53a",
@@ -390,6 +417,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 9.779,
     discount: 30,
+    totalSales: 2455,
   },
   {
     id: "0193dc28-a869-501e-8f88-b20e43a80d9b",
@@ -404,6 +432,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 62.973,
     discount: 10,
+    totalSales: 8869,
   },
   {
     id: "dc43a48d-3767-5991-9608-f5ef49c4c9d8",
@@ -418,6 +447,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 59.5,
     discount: 30,
+    totalSales: 4745,
   },
   {
     id: "c6ea8003-c9ff-5902-81d1-239036cb5784",
@@ -431,6 +461,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 53.879000000000005,
     discount: 30,
+    totalSales: 3129,
   },
   {
     id: "4a78cb68-fb63-53bd-b33d-b0ae4b4c63ae",
@@ -445,6 +476,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 90,
     discount: 0,
+    totalSales: 8418,
   },
   {
     id: "9aeb3a7b-0820-540d-8618-e2d05ea38084",
@@ -459,6 +491,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 80.5,
     discount: 30,
+    totalSales: 1330,
   },
   {
     id: "6e9939f3-810e-5c27-8302-70dffa874c8a",
@@ -473,6 +506,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 135,
     discount: 0,
+    totalSales: 1927,
   },
   {
     id: "ecf083dd-bc26-5ee9-b1f1-3e07d7a91bd6",
@@ -487,6 +521,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 21.576,
     discount: 20,
+    totalSales: 7350,
   },
   {
     id: "61edafb8-c084-5114-a655-6b23f1484c28",
@@ -501,6 +536,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 36,
     discount: 0,
+    totalSales: 587,
   },
   {
     id: "79509588-d42f-5d91-b35f-ea29aac807d0",
@@ -515,6 +551,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 85,
     discount: 0,
+    totalSales: 5018,
   },
   {
     id: "7a8a3b52-8ecd-5cd0-ac43-fa133713b908",
@@ -529,6 +566,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 119.97,
     discount: 0,
+    totalSales: 3221,
   },
   {
     id: "4ecd1db6-078e-5984-9bd2-f60d24a9f003",
@@ -543,6 +581,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 33.97,
     discount: 0,
+    totalSales: 7299,
   },
   {
     id: "eea98b83-9e4f-533a-bcd2-6eaa1f8f705f",
@@ -557,6 +596,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 40,
     discount: 0,
+    totalSales: 1325,
   },
   {
     id: "c5b7ce85-8c30-5e02-ab83-4d3f214caf6d",
@@ -571,6 +611,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 34.97,
     discount: 0,
+    totalSales: 3254,
   },
   {
     id: "6c7b320c-62d9-5d18-85b7-1eb79497a642",
@@ -584,6 +625,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 119.97,
     discount: 0,
+    totalSales: 8460,
   },
   {
     id: "00993410-328d-583b-b741-939bdd833c98",
@@ -598,6 +640,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 100,
     discount: 0,
+    totalSales: 3028,
   },
   {
     id: "3312ab7b-03e6-5c15-948f-89abe59836f7",
@@ -612,6 +655,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 90,
     discount: 10,
+    totalSales: 18,
   },
   {
     id: "76f8aa51-9a20-5ddf-a53f-8b2ca84c38b9",
@@ -626,6 +670,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 24.479,
     discount: 30,
+    totalSales: 3074,
   },
   {
     id: "cea96e5d-bc08-53fe-82f8-249552ed2d10",
@@ -639,6 +684,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 75,
     discount: 0,
+    totalSales: 8577,
   },
   {
     id: "402a7f96-e9c6-50e6-87d5-2e503d40a39f",
@@ -653,6 +699,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 65,
     discount: 0,
+    totalSales: 5781,
   },
   {
     id: "bbd3ccca-4818-5f0c-99eb-4f47f3a83002",
@@ -667,6 +714,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 28,
     discount: 20,
+    totalSales: 3215,
   },
   {
     id: "d01aa1ad-bf74-5c2a-842b-da1fd8f1eadb",
@@ -681,6 +729,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 19.976,
     discount: 20,
+    totalSales: 78,
   },
   {
     id: "d3885ffa-1701-5558-8840-2e542bec2515",
@@ -695,6 +744,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 140,
     discount: 0,
+    totalSales: 2436,
   },
   {
     id: "2f2ececa-a5c1-5754-9530-a00e9fcbb6d1",
@@ -709,6 +759,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 130,
     discount: 0,
+    totalSales: 8172,
   },
   {
     id: "2dce2884-4c44-563a-a339-2b632f11d814",
@@ -723,6 +774,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 25.878999999999998,
     discount: 30,
+    totalSales: 6939,
   },
   {
     id: "4d8fa26d-a8fc-5cd4-a0b7-c2f005822f37",
@@ -737,6 +789,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 19.773,
     discount: 10,
+    totalSales: 9034,
   },
   {
     id: "9048b167-abcc-5947-812b-84afc85e469d",
@@ -751,6 +804,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 8.4,
     discount: 30,
+    totalSales: 735,
   },
   {
     id: "5f4748cd-7470-53a1-b202-88ef064331cb",
@@ -765,6 +819,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 15.97,
     discount: 0,
+    totalSales: 8452,
   },
   {
     id: "10f479d6-adba-5ab3-b93c-de0796132ac4",
@@ -779,6 +834,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 30,
     discount: 0,
+    totalSales: 3784,
   },
   {
     id: "f7fa8840-ffc9-5b2d-b280-887c9b81ad48",
@@ -793,6 +849,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 26.97,
     discount: 0,
+    totalSales: 299,
   },
   {
     id: "d791aa26-000b-5d97-a41d-c78afb5784b9",
@@ -807,6 +864,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 71.073,
     discount: 10,
+    totalSales: 6046,
   },
   {
     id: "90450c49-5c48-528c-a765-c2890b4b1e3a",
@@ -821,6 +879,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 38.97,
     discount: 0,
+    totalSales: 2197,
   },
   {
     id: "bb3e0f7d-ec2b-5633-adc9-8a0001b04621",
@@ -835,6 +894,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 35,
     discount: 0,
+    totalSales: 6252,
   },
   {
     id: "c2b51f6c-1bfd-5a75-9bad-bafaa84100ba",
@@ -849,6 +909,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 35,
     discount: 0,
+    totalSales: 6114,
   },
   {
     id: "04107c7b-72cb-5c55-808b-d59437e5598e",
@@ -863,6 +924,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 24.97,
     discount: 0,
+    totalSales: 3878,
   },
   {
     id: "63aae9f6-4cba-57f2-aba9-6ac36e08f818",
@@ -877,6 +939,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 27.872999999999998,
     discount: 10,
+    totalSales: 2074,
   },
   {
     id: "55f327cc-5996-5a67-8bac-bac812646793",
@@ -891,6 +954,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 45,
     discount: 0,
+    totalSales: 7345,
   },
   {
     id: "c5427f57-9db6-5ded-850a-a073db0c4500",
@@ -905,6 +969,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 99,
     discount: 10,
+    totalSales: 6447,
   },
   {
     id: "1e58f383-bb6b-55a5-95b7-949fb5edf241",
@@ -919,6 +984,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 12.97,
     discount: 0,
+    totalSales: 5026,
   },
   {
     id: "0344ace9-2ecd-5218-b0fe-5d2f55fbc828",
@@ -933,6 +999,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 40.6,
     discount: 30,
+    totalSales: 8854,
   },
   {
     id: "3f159f22-0b22-5880-a0d2-1010ee06e96a",
@@ -947,6 +1014,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 95,
     discount: 0,
+    totalSales: 8594,
   },
   {
     id: "acb9c4ec-73d4-5373-be67-32ae25afd158",
@@ -961,6 +1029,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 175,
     discount: 0,
+    totalSales: 4700,
   },
   {
     id: "da20cc1b-9014-56eb-bdd1-d5963e376446",
@@ -975,6 +1044,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 9.97,
     discount: 0,
+    totalSales: 3245,
   },
   {
     id: "481c96e9-cdaf-57fd-9012-a3c033e907c3",
@@ -989,6 +1059,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 92.97,
     discount: 0,
+    totalSales: 1777,
   },
   {
     id: "5b0af97b-92a5-5924-9f31-7619e3b46063",
@@ -1003,6 +1074,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 40,
     discount: 0,
+    totalSales: 5417,
   },
   {
     id: "ac12dd26-1ff1-5fa5-b910-50f8b439ee02",
@@ -1017,6 +1089,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 48,
     discount: 0,
+    totalSales: 4109,
   },
   {
     id: "6dd139a5-097f-56c4-b44e-6eee2439dd84",
@@ -1031,6 +1104,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 53.97,
     discount: 0,
+    totalSales: 3610,
   },
   {
     id: "2ffcbc6f-7239-576c-b584-32c8ceb5f619",
@@ -1045,6 +1119,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 35,
     discount: 0,
+    totalSales: 4913,
   },
   {
     id: "bfaec317-a4fe-5fdf-a841-20a1877820eb",
@@ -1059,6 +1134,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 65,
     discount: 0,
+    totalSales: 2184,
   },
   {
     id: "771dfe6f-14d4-5841-bdbd-49f4b0991aef",
@@ -1073,6 +1149,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 80,
     discount: 0,
+    totalSales: 1966,
   },
   {
     id: "d460cf8f-1a9b-51ef-be11-af215a7e54c0",
@@ -1087,6 +1164,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 50,
     discount: 0,
+    totalSales: 2414,
   },
   {
     id: "c69b713c-8f35-5c32-bedb-9135b8c06466",
@@ -1101,6 +1179,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 75,
     discount: 0,
+    totalSales: 7657,
   },
   {
     id: "a9fd41a0-e607-5c42-9805-a453c553d907",
@@ -1115,6 +1194,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 135,
     discount: 0,
+    totalSales: 274,
   },
   {
     id: "fef19d29-11b5-5292-8a0f-d29d0bbdab4f",
@@ -1129,6 +1209,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 15.97,
     discount: 0,
+    totalSales: 5524,
   },
   {
     id: "662037be-05e1-5163-9eaa-242c64ca04d7",
@@ -1143,6 +1224,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 60,
     discount: 0,
+    totalSales: 981,
   },
   {
     id: "4ba40932-e1b4-5848-acc4-c898d5376ff3",
@@ -1157,6 +1239,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 31.97,
     discount: 0,
+    totalSales: 7290,
   },
   {
     id: "f3aaea6e-8c5d-5369-a9dc-2cfe77c6c455",
@@ -1171,6 +1254,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 45,
     discount: 0,
+    totalSales: 9463,
   },
   {
     id: "4c0df4c7-c999-519a-abfa-68750ad4d8f4",
@@ -1185,6 +1269,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 63.97,
     discount: 0,
+    totalSales: 4641,
   },
   {
     id: "16b4aff9-4105-518d-a466-7e7cbf999267",
@@ -1199,6 +1284,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 36,
     discount: 10,
+    totalSales: 1891,
   },
   {
     id: "c8116b21-0d1a-514c-8e06-dd473d8c3e9c",
@@ -1213,6 +1299,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 25.2,
     discount: 10,
+    totalSales: 5713,
   },
   {
     id: "d1ead403-e43e-564b-80b9-6450f18cb05f",
@@ -1226,6 +1313,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 85.97,
     discount: 0,
+    totalSales: 9915,
   },
   {
     id: "a870603c-a3e2-5757-b20f-fb3abedc55a4",
@@ -1240,6 +1328,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 34.97,
     discount: 0,
+    totalSales: 9501,
   },
   {
     id: "f294c7d5-a3d5-5862-a169-7b568fb77d3d",
@@ -1254,6 +1343,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 76.97,
     discount: 0,
+    totalSales: 6186,
   },
   {
     id: "0557c257-3a77-5526-a5f3-da4db9071c25",
@@ -1268,6 +1358,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 30,
     discount: 0,
+    totalSales: 817,
   },
   {
     id: "0b1d5a65-d256-54b4-8afb-30cb9965916e",
@@ -1282,6 +1373,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 40,
     discount: 0,
+    totalSales: 2095,
   },
   {
     id: "78db57cc-f5a2-5542-8400-ab327e91cfef",
@@ -1296,6 +1388,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 24,
     discount: 20,
+    totalSales: 6562,
   },
   {
     id: "53f5a842-8edf-5815-b5eb-9e9f60f609ae",
@@ -1310,6 +1403,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 59.5,
     discount: 30,
+    totalSales: 542,
   },
   {
     id: "a89f01e7-ace5-54fb-a427-c8e42b8d528e",
@@ -1324,6 +1418,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 36.97,
     discount: 0,
+    totalSales: 1994,
   },
   {
     id: "a6c17445-8a68-5c0a-83c9-34cecfbefdae",
@@ -1338,6 +1433,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 56,
     discount: 30,
+    totalSales: 3363,
   },
   {
     id: "ecfe8f36-7044-5af2-a9d2-481945ca7b85",
@@ -1352,6 +1448,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 115,
     discount: 0,
+    totalSales: 6619,
   },
   {
     id: "d1ec1950-d729-5857-9dbd-35706fa3479f",
@@ -1366,6 +1463,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 25.2,
     discount: 10,
+    totalSales: 8322,
   },
   {
     id: "479eaaf9-7426-50bd-9815-3cc9e7f941ec",
@@ -1380,6 +1478,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 18.375999999999998,
     discount: 20,
+    totalSales: 9577,
   },
   {
     id: "9108cd27-e643-5175-9907-cd1348226cdc",
@@ -1394,6 +1493,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 25.2,
     discount: 10,
+    totalSales: 9632,
   },
   {
     id: "35a6ff84-4ed9-53f0-9c58-2c114d3c42b4",
@@ -1408,6 +1508,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 90,
     discount: 0,
+    totalSales: 9472,
   },
   {
     id: "04799043-648c-55fb-a091-ab0b9b6dac15",
@@ -1422,6 +1523,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 37.97,
     discount: 0,
+    totalSales: 9593,
   },
   {
     id: "fb372f4d-2693-55e8-9f82-faf711383dc0",
@@ -1436,6 +1538,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 40,
     discount: 0,
+    totalSales: 3949,
   },
   {
     id: "2b803f79-b3d2-554d-9015-e03dbb28ec3f",
@@ -1450,6 +1553,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 45,
     discount: 0,
+    totalSales: 3353,
   },
   {
     id: "6b6445ef-5f49-59e0-9c26-d0459047aedd",
@@ -1464,6 +1568,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 10.97,
     discount: 0,
+    totalSales: 2415,
   },
   {
     id: "f525d84f-49cd-526b-bd79-2c5d06a3cdda",
@@ -1478,6 +1583,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 55.97,
     discount: 0,
+    totalSales: 6862,
   },
   {
     id: "f5115f37-52bc-5605-8784-28f5fbf09539",
@@ -1492,6 +1598,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 23.079,
     discount: 30,
+    totalSales: 371,
   },
   {
     id: "2778fd91-d3b6-579c-91c2-561ab93681ec",
@@ -1506,6 +1613,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 165,
     discount: 0,
+    totalSales: 6245,
   },
   {
     id: "d3ed0169-244e-5ee0-8ac4-fce2b4555998",
@@ -1520,6 +1628,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 50,
     discount: 0,
+    totalSales: 7411,
   },
   {
     id: "0a73c673-3f1e-5761-91aa-a10db4092973",
@@ -1534,6 +1643,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: true,
     discountPrice: 67.5,
     discount: 10,
+    totalSales: 4988,
   },
   {
     id: "e951cdc6-9c76-54f7-b23b-6cae9133c54d",
@@ -1548,6 +1658,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 160,
     discount: 0,
+    totalSales: 7630,
   },
   {
     id: "f4c3b3b0-6678-577b-98b2-f004063f2c4f",
@@ -1562,6 +1673,7 @@ const products: Array<ProductRaw> = [
     isOnPromotion: false,
     discountPrice: 35,
     discount: 0,
+    totalSales: 9064,
   },
 ];
 

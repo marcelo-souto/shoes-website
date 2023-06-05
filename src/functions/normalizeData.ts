@@ -12,6 +12,7 @@ declare global {
     isOnPromotion: boolean;
     discountPrice: number;
     discount: number;
+    totalSales: number;
   }
   interface Product {
     id: string;
@@ -24,6 +25,7 @@ declare global {
     isOnPromotion: boolean;
     discountPrice: number;
     discount: number;
+    totalSales: number;
   }
 }
 
@@ -39,5 +41,6 @@ export const normalizeData = (data: ProductRaw): Product => {
     isOnPromotion: data.isOnPromotion,
     discountPrice: USDToBRL(data.discountPrice),
     discount: data.discount,
+    totalSales: data.totalSales,
   };
 };
