@@ -4,7 +4,7 @@
 
 function addEvent<T extends Element>(element: T | Array<T> | NodeListOf<T>, event: string, listener: EventListener): void {
 
-  if (element instanceof Array) {
+  if (element instanceof Array || element instanceof NodeList) {
     element.forEach((el) => {
       el.addEventListener(event, listener);
     });

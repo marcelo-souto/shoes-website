@@ -1,7 +1,7 @@
 const products: Array<ProductRaw> = [
   {
     id: "c3229e54-aa58-5fdd-9f71-fbe66366b2b2",
-    name: "Nike Dri-FIT Team (MLB Minnesota Twins)",
+    name: "Nike Dri-FIT Team (MLB Minnesota Twins)54fdsgdsffdsfsdfg",
     price: 40,
     images:
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0116e668-a77e-402d-b89f-04647db0f0ad/dri-fit-team-minnesota-twins-mens-long-sleeve-t-shirt-6Wdjql.png",

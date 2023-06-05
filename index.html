@@ -142,10 +142,13 @@
 				<h2 class="title font-1-xxl-b grey-13">Destaques de hoje</h2>
 
 				<div class="products-container" id="products-area-1"></div>
-
-				<div class="d-flex justify-content-between align-items-center mt-2">
-					<button type="button" id="prev" class="button secondary">Anterior</button>
-					<button type="button" id="next" class="button secondary">Próximo</button>
+				<div class="d-flex justify-content-between pt-3">
+					<button class="button p-0 pt-2 pb-2 bg-transparent" type="button" id="prev" aria-label="Anterior">
+						&lt; Anterior
+					</button>
+					<button class="button p-0 pt-2 pb-2 bg-transparent" type="button" id="next" aria-label="Próximo">
+						Próximo &gt;
+					</button>
 				</div>
 			</section>
 			<section class="container section">
@@ -221,7 +224,7 @@
 			<section class="container section">
 				<h2 class="title font-1-xxl-b grey-13">Categorias</h2>
 				<nav>
-					<ul class="list-unstyled d-flex gap-4 overflow-x-auto">
+					<ul class="buttons-list list-unstyled d-flex gap-4 overflow-x-auto">
 						<li>
 							<button type="button" data-category="esporte" class="button outlined actived">
 								esporte

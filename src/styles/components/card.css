@@ -3,7 +3,7 @@
 .card-product {
 	display: flex;
 	opacity: 0;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 
 	flex-direction: column;
 	position: relative;
@@ -48,10 +48,23 @@
 .card-product h3 {
 	font: var(--font-1-m-sb);
 	color: var(--grey-13);
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .card-product p {
 	font: var(--font-1-s-m);
 	margin-top: 0.3rem;
 	color: var(--grey-06);
+}
+
+@media (max-width: 48rem) {
+	.card-product h3 {
+		font-size: 1rem;
+	}
+	.card-product p {
+		font-size: 0.8rem;
+	}
 }

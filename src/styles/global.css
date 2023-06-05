@@ -39,3 +39,12 @@ strong {
   color: var(--p-1);
   text-decoration: underline !important;
 }
+
+.buttons-list {
+  scroll-snap-type: x mandatory;
+  scroll-snap-stop: always;
+}
+
+.buttons-list li {
+  scroll-snap-align: end;
+}

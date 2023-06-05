@@ -67,7 +67,6 @@ export default class Pagination<T> {
 			this._updateItemsOnPage();
 			this._canGoNext();
 			this._canGoPrev();
-			console.log(this);
 		}
 	}
 
@@ -79,7 +78,6 @@ export default class Pagination<T> {
 			this._updateItemsOnPage();
 			this._canGoPrev();
 			this._canGoNext();
-			console.log(this);
 		}
 	}
 
