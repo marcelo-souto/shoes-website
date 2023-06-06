@@ -61,3 +61,33 @@ As seguintes linguagens e ferramentas foram usadas na construção do projeto:
 - Ícones: **[Google Icons](https://fonts.google.com/icons)**
 - Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)**, **[Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=plus+jakarta)**
 - Imagens: **[Unsplash](https://unsplash.com/pt-br)**, **[FreePik](https://br.freepik.com/)**
+
+</br>
+
+<h2 id="howto">🧭 Como Executar</h2>      
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+> [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [NPM](https://www.npmjs.com/) se for sua preferência.
+> Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### Rodando o projeto
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/marcelo-souto/shoes-website>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd <shoes-website>
+
+# Instale as dependências (npm ou yarn)
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# acesse http://localhost:5713
+```
+
