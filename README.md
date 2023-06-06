@@ -48,8 +48,8 @@ O layout da aplicação está disponível no Figma:
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[tech 1](https://exemplo.com)**
-- **[tech 2](https://exemplo.com)**
-- **[tech 3](https://exemplo.com)**
-- **[tech 4](https://exemplo.com)**
-- **[tech 5](https://exemplo.com)**
+- **[HTML](https://www.w3schools.com/html/)**
+- **[CSS](https://www.w3schools.com/css/default.asp)**
+- **[Typescript](https://www.typescriptlang.org/)**
+- **[Bootstrap](https://getbootstrap.com/)**
+- **[Vite](https://vitejs.dev/)**
