@@ -25,6 +25,7 @@
   projeto de desenvolvimento de um website completo para uma loja especializada em calçados e artigos esportivos. O objetivo é criar uma plataforma online atrativa, funcional e responsiva, utilizando HTML, CSS, Bootstrap e Typescript.
 </p>
 
+</br>
 
 <h2 id="layout">🎨 Layout</h2>
 O layout da aplicação está disponível no Figma:
@@ -90,4 +91,36 @@ $ npm run dev
 
 # acesse http://localhost:5713
 ```
+<br/>
+<h2 id="demo">🧪 Demo</h2>
 
+Para acesaar a demonstração do projeto 
+<a href="https://shoes-website-iota.vercel.app/">clique aqui</a>
+
+<br/>
+
+<h2 id="author">🦸 Autor</h2>
+
+<a href="#">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/100978478?s=400&u=7fa14dbaa8f6206043832a5b14292b88aea0f248&v=4" width="100px;" alt="<seu_nome>"/>
+  
+ <br />
+ <sub><b>Marcelo Souto</b></sub></a>
+ <br />
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=[<seu_linkedin>](https://www.linkedin.com/in/marcelosoutodev/))](https://www.linkedin.com/in/marcelosoutodev/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marcelosouto.dev@gmail.com)](mailto:marcelosouto.dev@gmail.com)
+
+<br/>
+
+<!-- License -->
+<!-- Crie a licença quando inciar seu projeto. -->
+<h2 id="license">📝 Licença</h2>
+
+Distribuído sob a licença MIT. Veja a [LICENSE](https://<repo_link>/LICENSE) para mais informações.
+
+Feito com ❤️ por Marcelo Souto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/marcelosoutodev/)
+
+<!-- Back to top -->
+[⬆ Voltar ao topo](#project_name)<br />
