@@ -2,7 +2,7 @@
 
   <br />
 
-  <img src="https://i.imgur.com/peXPBQx.png" alt="Logo" height="125" width="125">
+  <img src="https://i.imgur.com/d7wGRqP.png" alt="Shoes logo" height="125" width="125">
 
   <br />
   Shoes Website
@@ -13,7 +13,7 @@
 <p align="center">Projeto de desenvolvimento de um website de uma loja de calçados e artigos esportivos.</p>
 
 <p align="center">
-  <img src="https://semantic-ui.com/images/wireframe/image.png" alt="nome_do_projeto">
+  <img src="https://i.imgur.com/yiUXuof.png" alt="Shoes logo">
 </p>
 
 <!-- Project Status -->
