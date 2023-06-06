@@ -32,16 +32,15 @@ O layout da aplicação está disponível no Figma:
 <br />
 <br />
 
-<a href="https://exemplo.com">
-  <img alt="Made by <seu_nome>" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%235965E0">
+<a href="https://www.behance.net/gallery/172459611/Shoes-Website?">
+  <img alt="Made by Marcelo Souto" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%235965E0">
 </a>
 <br />
 <br />
 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img src="https://semantic-ui.com/images/wireframe/image.png" width="400px" alt="exemplo">
-  <img src="https://semantic-ui.com/images/wireframe/image.png" width="400px" alt="exemplo">
+  <img src="https://i.imgur.com/rKp0suq.png" width="620" height="100%" alt="imagem do layout do website">
 </p>
 
 <br />
@@ -57,7 +56,7 @@ As seguintes linguagens e ferramentas foram usadas na construção do projeto:
 
 **Utilitários**
 
-- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo (Nome do projeto)](https://www.figma.com)**
+- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo Shoes Website](https://www.behance.net/gallery/172459611/Shoes-Website?)**
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Ícones: **[Google Icons](https://fonts.google.com/icons)**
 - Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)**, **[Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=plus+jakarta)**
