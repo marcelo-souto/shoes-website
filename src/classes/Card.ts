@@ -38,8 +38,8 @@ export default class Card {
     return anchor;
   }
 
-  insertInto(el: string) {
-    const parentElement = document.querySelector(el);
+  insertInto(el: HTMLElement) {
+    const parentElement = el
     parentElement?.appendChild(this.element);
   }
 }

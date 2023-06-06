@@ -1,18 +1,27 @@
-
-.products-container {
+.products-content {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
 	gap: 2.5rem;
 }
 
-.products-container.list {
+.products-content.list {
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	gap: 2.5rem;
 	margin-top: 6rem;
 }
 
+.products-controls {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+}
+
+.products-controls > * {
+	padding: 0 .75rem;
+}
+
 @media (max-width: 48rem) {
-	.products-container {
+	.products-content {
 		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 	}
 }

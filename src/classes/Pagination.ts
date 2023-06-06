@@ -15,7 +15,7 @@ export default class Pagination<T> {
 	}: {
 		items: Array<T>;
 		totalItemsPerPage: number;
-		controls: { prev: string; next: string };
+		controls: { prev: HTMLElement; next: HTMLElement };
 	}) {
 		this.items = items;
 		this.totalItemsPerPage = totalItemsPerPage;
@@ -23,8 +23,8 @@ export default class Pagination<T> {
 		this.limit = this._updateLimit();
 		this.offset = 0;
 		this.itemsOnPage = this._updateItemsOnPage();
-		this.nextButton = document.querySelector(controls.next);
-		this.prevButton = document.querySelector(controls.prev);
+		this.nextButton = controls.next;
+		this.prevButton = controls.prev;
 		this.nextPage = this.nextPage.bind(this);
 		this.prevPage = this.prevPage.bind(this);
     this._canGoPrev()

@@ -48,3 +48,14 @@ strong {
 .buttons-list li {
   scroll-snap-align: end;
 }
+
+section {
+  opacity: 0;
+  transform: translateX(-1.25rem);
+  transition: all .3s ease-in-out;
+}
+
+section.show {
+  opacity: 1;
+  transform: initial;
+}
