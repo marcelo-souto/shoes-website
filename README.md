@@ -5,6 +5,7 @@
   <img src="https://i.imgur.com/d7wGRqP.png" alt="Shoes logo" height="125" width="125">
 
   <br />
+  <br />
   Shoes Website
   <br />
 
@@ -21,7 +22,7 @@
 
 <h2 id="about">💻 Sobre o projeto</h2>
 <p>
-  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+  projeto de desenvolvimento de um website completo para uma loja especializada em calçados e artigos esportivos. O objetivo é criar uma plataforma online atrativa, funcional e responsiva, utilizando HTML, CSS, Bootstrap e Typescript.
 </p>
 
 
