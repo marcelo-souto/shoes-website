@@ -46,10 +46,18 @@ O layout da aplicação está disponível no Figma:
 <br />
 <h2 id="technologies">🛠 Tecnologias</h2>
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes linguagens e ferramentas foram usadas na construção do projeto:
 
 - **[HTML](https://www.w3schools.com/html/)**
 - **[CSS](https://www.w3schools.com/css/default.asp)**
 - **[Typescript](https://www.typescriptlang.org/)**
 - **[Bootstrap](https://getbootstrap.com/)**
 - **[Vite](https://vitejs.dev/)**
+
+**Utilitários**
+
+- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo (Nome do projeto)](https://www.figma.com)**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Ícones: **[Google Icons](https://fonts.google.com/icons)**
+- Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)**, **[Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=plus+jakarta)**
+- Imagens: **[Unsplash](https://unsplash.com/pt-br)**, **[FreePik](https://br.freepik.com/)**
