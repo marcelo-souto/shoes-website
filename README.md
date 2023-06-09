@@ -117,7 +117,7 @@ Para acesaar a demonstração do projeto
 <!-- Crie a licença quando inciar seu projeto. -->
 <h2 id="license">📝 Licença</h2>
 
-Distribuído sob a licença MIT. Veja a [LICENSE](https://<repo_link>/LICENSE) para mais informações.
+Distribuído sob a licença MIT. Veja a [LICENSE](https://github.com/marcelo-souto/shoes-website/blob/main/LICENSE) para mais informações.
 
 Feito com ❤️ por Marcelo Souto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/marcelosoutodev/)
 
